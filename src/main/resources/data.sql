@@ -1,0 +1,1 @@
+INSERT INTO painting (title, author) VALUES('TITRE DE LA PAINTING', "AUTHOR DE LA PAINTING") ;
