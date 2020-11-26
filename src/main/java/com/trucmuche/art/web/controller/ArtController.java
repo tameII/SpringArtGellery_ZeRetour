@@ -27,10 +27,10 @@ public class ArtController {
         return dao.findById(id);
     }
 
-//    @PostMapping(value = "/art/add")
-//    public void addPainting(@RequestBody Painting painting) {
-//        dao.add(painting);
-//    }
+    @PostMapping(value = "/art/add")
+    public void addPainting(@RequestBody Painting painting) {
+        dao.save(painting);
+    }
 
 
 }
